@@ -13,3 +13,4 @@ RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     /ctx/build.sh
 
 RUN bootc container lint
+
